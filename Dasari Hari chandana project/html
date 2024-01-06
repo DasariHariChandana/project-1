@@ -1,0 +1,54 @@
+<!Doctype html>
+<html lang ="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name ="viewport" content ="width=device-width, initial-scale =1.0">
+        <title>Pricing landing page</title>
+            <link rel ="Stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+        <h1>list of items</h1>
+        </header>
+        <main>
+            <section class ="pricing-plan">
+                <h2>Basic plan</h2>
+                <p>Rs.239--Validity:28 days</p>
+                <ol>
+                    <li>Unlimited calls</li>
+                    <li>SMS: 100 SMS/day</li>
+                    <li>Data: 1.5 GB/day</li>
+                    <li>Note: Save Rs. 51 on recharge of plan 666</li>
+                </ol>
+                <button class ="toggle">Toggle Details</button>
+                </section>
+                <section class ="pricing-plan">
+                <h3>Standard plan</h3>
+                <p>Rs.299--Validity:28 days</p>
+                <ol>
+                    <li>Unlimited calls</li>
+                    <li>SMS: 100 SMS/day</li>
+                    <li>Data: 2.0 GB/day</li>
+                    <li>Note: Choose Rs.398 Plan to get 12 Premium OTT apps</li>
+                </ol>
+                <button class ="toggle">Toggle Details</button>
+            </section>
+            <section class="customization-options">
+                <label for="currency">Select Currency:</label>
+                <select id="currency">
+                  <option value="$">$ (USD)</option>
+                  <option value="€">€ (Euro)</option>
+                  <option value="£">£ (GBP)</option>
+                </select>
+            
+                <label for="unit">Select Unit:</label>
+                <select id="unit">
+                  <option value="month">Month</option>
+                  <option value="year">Year</option>
+                </select>
+              </section>
+            
+       </main>
+       <script src="index.js"></script>
+    </body>
+</html>
